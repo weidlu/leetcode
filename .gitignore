@@ -1,4 +1,5 @@
-/.idea/
+**/.idea/
 /.gradle/
 /leetcode.iml
 /target/
+**/venv/**

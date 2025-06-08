@@ -10,8 +10,7 @@ class Solution:
             if target - nums[i] in map and map[target - nums[i]] != i:
                 return [i, map[target - nums[i]]]
 
-
 if __name__ == "__main__":
     n = [3, 2, 4]
     s = Solution()
-    print(s.twoSum(n,6))
+    print(s.twoSum(n, 6))
